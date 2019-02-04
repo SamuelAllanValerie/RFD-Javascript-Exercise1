@@ -15,7 +15,6 @@ for (var i = -12728 ; i < 16856 ; i += 17) {
   resultat += "</ul>";
  }
 }
-
 resultat += "</ul>" ;
 
 document.write(resultat);
