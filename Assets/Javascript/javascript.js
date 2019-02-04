@@ -1,12 +1,9 @@
-var message = prompt('Veuillez saisir une valeur');
-var reponse = "";
+var resultat = "<ul>";
 
-if (message < 0) {
-  reponse = 'Nombre negatif';
+for (var i = 0 ; i <= 100 ; i++) {
+ resultat = resultat + "<li>" + i + "</li>";
 }
 
- else {
-  reponse = 'nombre positif';
- }
+resultat = resultat + "</ul>" ;
 
- alert(reponse);
+document.write(resultat);
